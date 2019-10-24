@@ -13,3 +13,5 @@ function multiply() {
 	}
 	return result;
 }
+
+module.exports = { add, multiply };

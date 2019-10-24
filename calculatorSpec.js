@@ -1,4 +1,10 @@
+var { add, multiply } = require('./calculator');
+
 describe('Calculator', function() {
+	it('should add zero and zero', function() {
+		expect(add(0, 0)).toBe(0);
+	});
+
 	it('should add two numbers', function() {
 		expect(add(1, 2)).toBe(3);
 	});
